@@ -14,10 +14,10 @@ if __name__ == "__main__":
     #2,Remote Server通过浏览器内核api去启动浏览器
     #3，启动浏览器操作返回调用结果给Remote Server
     #4，Remote Server返回http response给到python selenium代码
-    # driver = webdriver.Chrome()
+    driver = webdriver.Chrome()
     # driver = webdriver.Firefox()
     # driver = webdriver.Ie()
-    driver = webdriver.Edge()
+    # driver = webdriver.Edge()
     #浏览器最大化
     driver.maximize_window()
     #浏览器URL导航操作
